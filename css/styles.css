@@ -1,8 +1,5 @@
-* {
-    background-color: #9164ccff;
-
     header {
-        background-color: midnightblue;
+        background-color: white;
         color: white;
         padding: 20px 0;
         text-align: center;
@@ -49,5 +46,3 @@
         font-size: 14px;
 
     }
-
-}
