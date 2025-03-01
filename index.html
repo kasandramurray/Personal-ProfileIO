@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,24 +7,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <title></title>
 
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-        </script>
-    <script>
-        $(function () {
-            $("#header").load("header.html");
-            $("#footer").load("footer.html");
-        });
-    </script>
-
 </head>
 
 <body>
 
-<div id="header"></div>
-
-    <!-- <div>
+    <!-- Start Header -->
+    <div>
         <header>
             <nav>
                 <ul>
@@ -35,26 +23,23 @@
                 </ul>
             </nav>
         </header>
-    </div> -->
+    </div>
 
+    <!-- Start Body -->
     <div>
         <h1>Kasandra's Personal Profile</h1>
         <a href="assets/Resume.pdf">My Resume</a>
         For this change
         here is another change
 
-        last updated on 3/1/25 at 10:22 am
+        last updated on 3/1/25 at 10:31 am
     </div>
 
-    <div id="footer"></div>
+    <!-- Start Footer -->
+    <footer>
+        <p> Copyright &copy; <script>document.write(new Date().getFullYear())</script> Kasandra Murray All Rights Reserved</p>
+    </footer>
 
-    <!-- <div>
-        <footer>
-            <p> Copyright &copy;
-                <script>document.write(new Date().getFullYear())</script> Kasandra Murray All Rights Reserved
-            </p>
-        </footer>
-    </div> -->
 </body>
 
 </html>
