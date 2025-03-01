@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <link rel="stylesheet" href="css/style.css">
     <title></title>
 </head>
 
 <body>
-    <div class="header">
-        <header th:fragment="siteHeader">
+    <div>
+        <header>
             <nav>
                 <ul>
-                <li><a th:href="@{/index}">Home</a></li>
-                <li><a th:href="@{/about}">About</a></li>
-                <li><a th:href="@{/projects}">Projects</a></li>
-                <li><a th:href="@{/contact}">Contact</a></li>
+                <li><a href="index">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="projects">Projects</a></li>
+                <li><a href="contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -29,7 +29,7 @@
         here is another change
     </div>
 
-    <div class="footer">
+    <div>
         <footer>
             <p> Copyright &copy;
                 <script>document.write(new Date().getFullYear())</script> Kasandra Murray All Rights Reserved
