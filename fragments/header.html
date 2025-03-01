@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th = "http://www.thymeleaf.org">
+<body>
+    <header th:fragment="siteHeader">
+        <nav>
+            <ul>
+            <li><a th:href="@{/index}">Home</a></li>
+            <li><a th:href="@{/about}">About</a></li>
+            <li><a th:href="@{/projects}">Projects</a></li>
+            <li><a th:href="@{/contact}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
